@@ -1,0 +1,6 @@
+---
+- name: Allow HTTP access from everywhere
+  ufw:
+    proto: tcp
+    port: 80
+    rule: allow
